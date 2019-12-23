@@ -6,7 +6,7 @@
   @warn "The inline-block mixin is deprecated and will be removed in the next major version release";
 }
 
-@mixin button ($style: simple, $base-color: #4294f0, $text-size: inherit, $padding: 7px 18px) {
+@mixin button ($style: simple, $base-color: #222222, $text-size: inherit, $padding: 7px 18px) {
 
   @if type-of($style) == string and type-of($base-color) == color {
     @include buttonstyle($style, $base-color, $text-size, $padding);
