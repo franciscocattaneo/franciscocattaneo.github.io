@@ -41,18 +41,18 @@ $lighter-gray-color: lighten($light-gray-color, 20%);
 
 // Font Colors
 //
-$base-font-color: $medium-gray-color;
-$action-color: $primary-color;
+$base-font-color: $red;
+$action-color: $red;
 
 // Border
 //
-$base-border-color: lighten($lighter-gray-color, 5%);
-$base-border: 1px solid $base-border-color;
+$base-border-color: lighten(red);
+$base-border: 1px solid red;
 
 // Background Colors
 //
-$base-background-color: $white-color;
-$secondary-background-color: tint($base-border-color, 75%);
+$base-background-color: $red;
+$secondary-background-color: tint(red);
 
 // Forms
 //
